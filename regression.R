@@ -63,3 +63,5 @@ print(sqrt(diag(se)))
 #run the standard regression to check our work.
 reg = lm(incwage ~ uhrswork, data=df1.d)
 summary(reg)
+print (nrow(x))
+
